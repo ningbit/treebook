@@ -3,3 +3,9 @@ ning:
   last_name: "Yap"
   email: "ning.yap@gmail.com"
   profile_name: "ningyap"
+
+jim:
+  first_name: "Jim"
+  last_name: "Hoskins"
+  email: "jim@teamtreehouse.com"
+  profile_name: "jimhoskins"

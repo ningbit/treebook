@@ -19,8 +19,8 @@ validates :last_name, presence: true
 validates :profile_name, presence: true, 
                          uniqueness: true,
                          format: {
-                          with: /a-zA-Z0-9_-/,
-                          message: "Must be formatted correctly."
+                          with: /^[a-zA-Z0-9_-]+$/,
+                          message: "must be formatted correctly."
                          }
 
 
